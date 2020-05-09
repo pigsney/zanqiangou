@@ -1,0 +1,7 @@
+<!--components/navbar/index.wxml-->
+<view class='navbar {{parameter.class}}' style='height:{{navH}}rpx'>
+  <view class='navbarH' style='height:{{navH}}rpx'>
+    <view class='navbarCon acea-row row-center-wrapper' wx:if='{{parme}}'>
+    </view>
+  </view>
+</view>

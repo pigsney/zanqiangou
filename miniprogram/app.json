@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/classify/classify",
+    "pages/shop-cart/shop-cart",   
+    "pages/mine/mine",
+    "components/navbar/index"
+  ],
+  "window": {
+    "backgroundColor": "black",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "攒钱购",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "color": "#282828",
+    "selectedColor": "#e93323",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/index-house.png",
+      "selectedIconPath": "images/index-house-selected.png"
+    },
+    {
+      "pagePath": "pages/classify/classify",
+      "text": "分类",
+      "iconPath": "images/classify.png",
+      "selectedIconPath": "images/classify-selected.png"
+    },
+    {
+      "pagePath": "pages/shop-cart/shop-cart",
+      "text": "购物车",
+      "iconPath": "images/shop-cart.png",
+      "selectedIconPath": "images/shop-cart-selected.png"
+    },
+    {
+      "pagePath": "pages/mine/mine",
+      "text": "我的",
+      "iconPath": "images/mine.png",
+      "selectedIconPath": "images/mine-selected.png"
+    }]
+  }
+}
