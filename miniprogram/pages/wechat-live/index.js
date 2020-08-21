@@ -1,4 +1,4 @@
-// pages/classify/classify.js
+// pages/wechat-live/wechat-live.js
 Component({
   /**
    * 组件的属性列表

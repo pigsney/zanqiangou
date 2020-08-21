@@ -1,10 +1,9 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/classify/classify",
-    "pages/shop-cart/shop-cart",   
-    "pages/mine/mine",
-    "components/navbar/index"
+    "pages/wechat-live/index",
+    "pages/shop-cart/index",   
+    "pages/mine/index"
   ],
   "window": {
     "backgroundColor": "black",
@@ -28,22 +27,28 @@
       "selectedIconPath": "images/index-house-selected.png"
     },
     {
-      "pagePath": "pages/classify/classify",
-      "text": "分类",
-      "iconPath": "images/classify.png",
-      "selectedIconPath": "images/classify-selected.png"
+      "pagePath": "pages/wechat-live/index",
+      "text": "直播",
+      "iconPath": "images/wechat-live.png",
+      "selectedIconPath": "images/wechat-live-selected.png"
     },
     {
-      "pagePath": "pages/shop-cart/shop-cart",
+      "pagePath": "pages/shop-cart/index",
       "text": "购物车",
       "iconPath": "images/shop-cart.png",
       "selectedIconPath": "images/shop-cart-selected.png"
     },
     {
-      "pagePath": "pages/mine/mine",
+      "pagePath": "pages/mine/index",
       "text": "我的",
       "iconPath": "images/mine.png",
       "selectedIconPath": "images/mine-selected.png"
     }]
-  }
+  },
+  "subpackages": [{
+    "root": "components",
+    "pages": [
+      "components/navbar/index"
+    ]
+  }]
 }
